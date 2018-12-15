@@ -14,7 +14,7 @@ export default {
   data(){
     return {
       active:15,
-      arr:Array.from({length:15}).fill(0).map(function(item,i){return i+1}).sort(function(a,b){return 0.5-Math.random()}).concat([0])
+      arr:Array.from({length:15}).fill(0).map(function(item,i){return i+1}).sort().concat([0])
     }
   },
   mounted(){
